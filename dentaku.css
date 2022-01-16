@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+table{
+  background-color: #99C;
+  width: 300px;  
+  height: 400px;
+  border: solid 1px #dcdcdc;
+  border-right: solid 4px #dcdcdc;
+  border-bottom: solid 4px #dcdcdc;
+  border-radius: 30px;
+  text-align: center;
+  padding:5px;
+  margin: 20px;
+}
+
+input {
+  width: 70px;
+  height: 70px;
+  font-size: x-large;
+  background-color: #FFFFCC;
+  border: none;
+  border-radius: 20px;
+  
+}
+
+.display {
+  width: 250px;
+  text-align: right;
+  background: #FFFFFF;
+  border-top: solid 5px;
+  border-bottom: solid 5px;
+  border-right: solid 6px;
+  border-left: solid 6px;
+}
+
+.operator {
+  background-color: #87cefa;
+}
+.equal {
+  background-color: #CCFF99;
+}
+
+input:hover {
+  background: #747373;
+}
+
+.display:hover{
+  background: #ffffff;
+}
+
+.operator:hover {
+   background: #339cdd;
+}
+
+ input:active{
+   background:  #5a5a5a;
+ }
+
+.operator:active {
+   background: #2c80b4;
+ }
